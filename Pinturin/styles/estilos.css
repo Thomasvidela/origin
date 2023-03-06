@@ -1,0 +1,126 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: rgb(224, 221, 221);
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(34, 30, 30)
+}
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: coral;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img{
+    height: 50px;
+    margin-left: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+button{
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 15px;
+
+}
+
+.button-checkout{
+    border: none;
+    background-color: white;
+    color: black;
+    border: 2px solid coral;
+    transition-duration: 0.4s;
+    position: relative;
+    left: 20px;
+}
+
+.button-checkout:hover{
+    background-color: coral;
+    color: white;
+}
+
+.button-add{
+    border: none;
+    background-color: white;
+    color: black;
+    border: 2px solid coral;
+    transition-duration: 0.4s;
+}
+
+.button-add:hover{
+    background-color: coral;
+    color: white;
+}
+
+.contenido{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.productos{
+    margin: 20px;
+    padding: 2px 16px;
+    background-color: white;
+}
+
+.productos h4{
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.productos:hover{
+    box-shadow: 0 8px 16px 0 coral;
+}
+
+.productos img{
+    width: 350px;
+
+}
+
+.button-calculo:hover{
+    background-color: coral;
+    color: white;
+}
+
+.button-calculo{
+    border: none;
+    background-color: white;
+    color: black;
+    border: 2px solid coral;
+    transition-duration: 0.4s;
+    position: absolute;
+}
+
+.calculo-m2{
+    background-color: coral;
+    font-size: 15px;
+    position: center;
+    text-align: center;
+}

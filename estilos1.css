@@ -1,0 +1,31 @@
+	 body{
+	 	background: greenyellow;
+	 	font-family: cursive;
+	 }
+
+		h1{
+			color:#white; 
+			background: red;
+			text-align: right;
+		}
+		img{
+			display: block;
+			margin:auto;
+		}
+
+	.entrada{
+			width: 200px;
+			font-family:serif;
+			font-size: 32px;
+		}
+
+
+		table{
+			margin: 9px auto 30px auto;
+			width: 290px;
+	font-family:serif;
+			font-size: 32px;
+			    background: #ffc107;
+    padding: 20px 20px;
+    border: solid 7px #561b04;
+		}

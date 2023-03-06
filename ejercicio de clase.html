@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>Tabla de multiplicar</head>
+	
+	<script>
+		
+		function mostrarTabla(){
+
+			let valorMultiplicar=document.getElementById('valor').value;
+
+			if(valorMultiplicar){
+				let mult=parseInt(valorMultiplicar)
+				let tabla=document.getElementById('tablaMultiplicar')
+				tabla.innerHTML=""
+				let b="" 
+				for (let i = 0;i <=10; i++){
+					
+					let rta=mult*i;
+
+					b+='<tr>'
+					b+= '<td>'+mult+'</td>'
+					b+= '<td>x</td>'
+					b+='<td>'+i+ '=</td>'
+					b+='<td>'+rta+'</td>'
+					b+= '</tr>'
+				}
+				tabla.innerHTML=b
+			}
+		}
+	</script>
+
+	<body>
+		
+
+		<h1>Calcular la tabla de multiplicar</h1>
+		
+
+		
+		<input type="text" id="valor">
+		<input type="button" value="calcular">
+						
+		<table id="tablaMultimplicar">
+			<tr>
+				<td>i</td>
+				<td>x</td>
+				<td>1 =</td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>i</td>
+				<td>x</td>
+				<td>2 =</td>
+				<td>2</td>
+			</tr>
+			<tr>
+				<td>i</td>
+				<td>x</td>
+				<td>3 =</td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>i</td>
+				<td>x</td>
+				<td>4 =</td>
+				<td>4</td>
+			</tr>
+		</table>
+
+	</body>
+	<nav>
+		<img src="img/agua.png" width="200px" height="150px">
+	</nav>
+</html>
